@@ -1,0 +1,17 @@
+Source: GAY Coin
+Section: misc
+Priority: extra
+Maintainer: GAY Coin <akira.takizawa@morningGAY Coin.com>
+Build-Depends: debhelper (>= 5),
+	libminiupnpc-dev,
+	libdb++-dev,
+	libboost-system-dev, libboost-filesystem-dev, libboost-program-options-dev, libboost-thread-dev,
+	qt5-default, qttools5-dev-tools,
+	desktop-file-utils, 
+Standards-Version: 3.8.3
+Homepage: http://www.morningGAY Coin.com/
+
+Package: GAY Coin
+Architecture: i386 amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: GAY Coin Wallet

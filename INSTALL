@@ -1,0 +1,9 @@
+Building GAY Coin
+
+See doc/readme-qt.rst for instructions on building GAY Coin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of GAY Coin.
+
+See doc/build-*.txt for instructions on building GAY Coind,
+the intended-for-services, no-graphical-interface, reference
+implementation of GAY Coin.

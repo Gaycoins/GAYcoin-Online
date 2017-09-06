@@ -12,7 +12,7 @@
 //
 
 static const int CLIENT_VERSION =
-                           1000000 * CLIENT_VERSION_MAJOR
+                           2000000 * CLIENT_VERSION_MAJOR
                          +   10000 * CLIENT_VERSION_MINOR
                          +     100 * CLIENT_VERSION_REVISION
                          +       1 * CLIENT_VERSION_BUILD;
@@ -24,13 +24,13 @@ extern const std::string CLIENT_DATE;
 //
 // database format versioning
 //
-static const int DATABASE_VERSION = 70508;
+static const int DATABASE_VERSION = 80508;
 
 //
 // network protocol versioning
 //
 
-static const int PROTOCOL_VERSION = 60013;
+static const int PROTOCOL_VERSION = 70013;
 
 // earlier versions not supported as of Feb 2012, and are disconnected
 static const int MIN_PROTO_VERSION = 209;

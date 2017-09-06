@@ -30,7 +30,7 @@ class CNode;
 static const int LAST_POW_BLOCK = 18000;
 static const int FIRST_POS_BLOCK = 0; // PoS always on
 
-static const unsigned int MAX_BLOCK_SIZE = 50000000;
+static const unsigned int MAX_BLOCK_SIZE = 100000000;
 static const unsigned int MAX_BLOCK_SIZE_GEN = MAX_BLOCK_SIZE/20;
 static const unsigned int MAX_BLOCK_SIGOPS = MAX_BLOCK_SIZE/500;
 static const unsigned int MAX_ORPHAN_TRANSACTIONS = MAX_BLOCK_SIZE/1000;
